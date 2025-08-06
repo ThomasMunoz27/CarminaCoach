@@ -1,0 +1,43 @@
+.headerContainer{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+}
+
+.subHeader{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menuItem {
+  position: relative;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menuItem::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.menuItem:hover::after {
+  width: 100%;
+}
+
+.selected::after {
+  width: 100%;
+}
