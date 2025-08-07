@@ -26,8 +26,7 @@
 .nameTitle {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-    font-family: 'Dancing Script', cursive;
-
+    font-family: 'Great Vibes', cursive;
 }
 
 .description {
@@ -38,4 +37,18 @@
     margin-bottom: 2rem;
     border-radius: 8px;
 
+}
+
+/* Media query para tablets */
+@media (max-width: 768px) {
+  .presentationBannerContainer {
+    background-position: 25% top;
+  }
+}
+
+/* Media query para celulares */
+@media (max-width: 480px) {
+  .presentationBannerContainer {
+    background-position: 25% /* enfoca la parte superior del centro */
+  }
 }

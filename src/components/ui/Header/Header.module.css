@@ -13,7 +13,8 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
-
+    text-align: center;
+    margin: 8px;
 }
 
 .menuItem {
@@ -40,4 +41,16 @@
 
 .selected::after {
   width: 100%;
+}
+
+.logoImg {
+  height: 80px; /* tamaño controlado y consistente */
+  width: auto; /* mantiene proporciones */
+  object-fit: contain; /* asegura que no se recorte ni deforme */
+  border-radius: 8px; /* opcional: bordes redondeados */
+  transition: transform 0.3s ease;
+}
+
+.logoImg:hover {
+  transform: scale(1.05); /* efecto sutil al pasar el mouse */
 }

@@ -1,9 +1,14 @@
-.buttonWhats{
-    padding: '10px 20px';
-    background-color: '#25D366';
-    color: 'white';
-    border: 'none';
-    border-radius: '8px';
-    font-size: '16px';
-    cursor: 'pointer';
+.buttonWhats {
+  padding: 10px 20px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.buttonWhats:hover {
+  background-color: #1ebe5b; /* un poco más oscuro */
+  transform: translateY(-1px); /* efecto de subida */
 }

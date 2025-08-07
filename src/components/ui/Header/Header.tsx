@@ -8,7 +8,7 @@ export const Header = () => {
     <>
     <header className={styles.headerContainer}>
         <div className={styles.imageContainer}>
-            <img src="public\lic_carmina.png" alt="" />
+            <img className={styles.logoImg} src="public\lic_carmina.png" alt="" />
         </div>
 
         <div className={styles.subHeader}>

@@ -1,0 +1,73 @@
+.infoBannerContainer {
+  position: relative;
+  height: auto;
+  min-height: 60vh;
+  background-image: url('/public/infoBannerImg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  color: white;
+  margin-top: 16px;
+
+  width: 100%;
+}
+
+.infoBannerContent {
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.65); /* mejor contraste */
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  animation: fadeIn 1s ease-in-out;
+  margin: 24px;
+}
+
+.infoBannerContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.infoBannerContent p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  white-space: pre-line; /* respeta los saltos de línea del texto */
+
+}
+
+/* Animación opcional */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media query para tablets */
+@media (max-width: 768px) {
+  .infoBannerContainer {
+    background-position: 25% top;
+  }
+}
+
+/* Media query para celulares */
+@media (max-width: 480px) {
+  .infoBannerContainer {
+    background-position: 25% 
+  }
+}
