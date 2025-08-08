@@ -2,6 +2,7 @@ import { Header } from '../../ui/Header/Header'
 import { HowToHelpBanner } from '../../ui/HowToHelpBanner/HowToHelpBanner'
 import { InfoBanner } from '../../ui/InfoBanner/InfoBanner'
 import { PresentationBanner } from '../../ui/PresentationBanner/PresentationBanner'
+import { WhoIAmBanner } from '../../ui/WhoIAmBanner/WhoIAmBanner'
 import styles from './MainScreen.module.css'
 
 export const MainScreen = () => {
@@ -12,6 +13,7 @@ export const MainScreen = () => {
         <PresentationBanner></PresentationBanner>
         <InfoBanner></InfoBanner>
         <HowToHelpBanner/>
+        <WhoIAmBanner></WhoIAmBanner>
     </div>
     </>
   )

@@ -11,11 +11,10 @@ export const HowToHelpBanner = () => {
 
                 <div className={styles.textSide}>
                     <h2>¿Como Te podemos Ayudar?</h2>
-                    <p>A través del coaching con estrategia,   llevo a mi cliente o coachee por un proceso estratégico paso a paso hacia el logro de un fin.
+                    <p>A través del coaching con estrategia, llevo a mi cliente o coachee por un proceso estratégico paso a paso hacia el logro de un fin.
+<br /><br />Para alcanzarlo es necesario como primer paso definir bien este proceso.
 
-Para alcanzarlo es necesario como primer paso definir bien este proceso.
-
-Es por esto que como tu coach, en las primeras sesiones te voy a guiar para que puedas definir o si fuese el caso; descubrir cuál es su objetivo.
+<br /><br />Es por esto que como tu coach, en las primeras sesiones te voy a guiar para que puedas definir o si fuese el caso; descubrir cuál es su objetivo.
                     </p>
 
                     <WhatsAppButton
