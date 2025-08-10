@@ -1,4 +1,4 @@
-import { WhatsAppButton } from '../WhatsAppButton/WhatsAppButton'
+import { WhatsAppButton } from '../../WhatsAppButton/WhatsAppButton'
 import styles from './PresentationBanner.module.css'
 
 export const PresentationBanner = () => {

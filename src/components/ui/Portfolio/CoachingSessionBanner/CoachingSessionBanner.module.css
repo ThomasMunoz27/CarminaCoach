@@ -1,0 +1,75 @@
+.coachingSessionContainer {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.coachingSessionContent {
+  position: relative;
+  height: 60vh; /* altura relativa, ajustala si querés */
+  background-image: url('/peopleClimbing.jpg'); /* corregí la ruta para que sea relativa al public */
+  background-size: cover; /* la imagen no se achica, se recorta */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* centrar horizontalmente */
+  text-align: center;
+  padding: 0 20px;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.6);
+}
+
+.coachingSessionContent h2 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.coachingSessionContent p {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto 25px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+}
+
+.coachingSessionContent h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #ff6f61; /* tono cálido para llamar la atención */
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(255,111,97,0.6);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.coachingSessionContent h4:hover {
+  background-color: #ff856f;
+  transform: scale(1.05);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .coachingSessionContent {
+    height: 50vh;
+  }
+
+  .coachingSessionContent h2 {
+    font-size: 2rem;
+  }
+
+  .coachingSessionContent p {
+    font-size: 1rem;
+  }
+
+  .coachingSessionContent h4 {
+    font-size: 1.3rem;
+    padding: 10px 25px;
+  }
+}
