@@ -20,7 +20,8 @@ export const HowToHelpBanner = () => {
                     <WhatsAppButton
                                         message='Me interesa saber mas sobre el curso de:
                                                 1.Especialista en Neuroventas
-                    2. Diplomado en Coaching Organizacional'/>
+                    2. Diplomado en Coaching Organizacional'
+                    buttonMessage='Saber más'/>
                 </div>
             </div>
         </div>

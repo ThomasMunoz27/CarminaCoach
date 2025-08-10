@@ -3,9 +3,10 @@ import styles from './WhatsAppButton.module.css'
 
 interface IWhatsAppButton {
     message: string
+    buttonMessage: string
 }
 
-export const WhatsAppButton:FC<IWhatsAppButton> = ({message}) => {
+export const WhatsAppButton:FC<IWhatsAppButton> = ({message, buttonMessage}) => {
 
     const phoneNumber = `5492613045554`
 
@@ -15,7 +16,7 @@ export const WhatsAppButton:FC<IWhatsAppButton> = ({message}) => {
     <>
         <a href={whatsAppLink} target='_blank' rel='noopener noreferrer'>
             <button className={styles.buttonWhats}>
-                Saber Mas
+                {buttonMessage}
             </button>
         </a>
     </>
