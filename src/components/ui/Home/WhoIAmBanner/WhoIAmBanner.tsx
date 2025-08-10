@@ -19,9 +19,9 @@ export const WhoIAmBanner = () => {
 <br /><br />He ayudado a emprendedores a crecer junto con sus proyectos y negocios.</p>
                 </div>
                 <div className={styles.imgsSide}>
-                    <img src="public\reunion2img.jpeg" alt="" />
-                    <img src="public\carminaCollage.png" alt="" />
-                    <img src="public\climbImg.png" alt="" />
+                    <img src="/reunion2img.jpeg" alt="" />
+                    <img src="/carminaCollage.png" alt="" />
+                    <img src="/climbImg.png" alt="" />
                 </div>
             </div>
 

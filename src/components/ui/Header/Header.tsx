@@ -25,7 +25,7 @@ export const Header = () => {
     <>
     <header className={styles.headerContainer}>
         <div className={styles.imageContainer} onClick={()=> handleClick("Home")}>
-            <img className={styles.logoImg} src="public\lic_carmina.png" alt="" />
+            <img className={styles.logoImg} src="/lic_carmina.png" alt="" />
         </div>
 
         <div className={styles.subHeader}>

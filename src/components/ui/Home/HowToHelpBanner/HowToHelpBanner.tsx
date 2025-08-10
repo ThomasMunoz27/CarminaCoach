@@ -7,7 +7,7 @@ export const HowToHelpBanner = () => {
     <>
         <div className={styles.helpBannerContainer}>
             <div className={styles.helpBannerContent}>
-                <img src="public\reunionImg.jpg" alt="" />
+                <img src="/reunionImg.jpg" alt="" />
 
                 <div className={styles.textSide}>
                     <h2>¿Como Te podemos Ayudar?</h2>

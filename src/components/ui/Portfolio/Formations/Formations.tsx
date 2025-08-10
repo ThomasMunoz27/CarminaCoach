@@ -9,9 +9,9 @@ export const Formations = () => {
                 <p>Con más de 8000 estudiantes acreditados en 17 países,  somos una de las mejores escuelas de Liderazgo y Coaching.</p>
 
                 <div className={styles.formationImgs}>
-                    <img src="public\coachingontologico.jpg" alt="" />
-                    <img src="public\studyTrading.jpg" alt="" />
-                    <img src="public\oratoria.jpg" alt="" />
+                    <img src="/coachingontologico.jpg" alt="" />
+                    <img src="/studyTrading.jpg" alt="" />
+                    <img src="/oratoria.jpg" alt="" />
                 </div>
             </div>
         </div>
